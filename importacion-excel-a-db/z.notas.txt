@@ -1,0 +1,21 @@
+- Importar datos de Excel a MySQL usando la libreria PhpSpreadSheet
+tutorial -> https://www.youtube.com/watch?v=LAHkGTwnA9g&t=628s
+documentacion oficial libreria -> https://phpspreadsheet.readthedocs.io/en/latest/
+
+----- 
+
+PASO 1 - Instalar Composer 
+
+tutorial -> https://www.youtube.com/watch?v=NGvfsCOVzwo
+repositorio de dependencias de composer -> https://packagist.org/
+
+1) en el proyecto recien iniciado, descargo la libreria PhpSpreadSheet via composer vvv
+User@DESKTOP-0VF0DF8 MINGW64 /c/xampp/htdocs/scripts/importacion-excel-a-db
+$ composer require phpoffice/phpspreadsheet
+*** este comando descarca la carpeta /vendor, y los archivos composer.json y composer.lock
+*** dentro de /vendor, la carpeta /phpoffice tiene los archivos relacionados a la libreria phpspreadsheet
+
+----- 
+
+PASO 2 - Instalar Composer 
+
